@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background: #efe7d9;
+    color: #f4eee0;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+/* COMPONENT STYLES: For reusable  components */
+@layer components{
+    .sub-menu{
+        @apply absolute top-[4.3rem] p-[15px] rounded-[6px] origin-[50%_-170px] backdrop-blur bg-[#f4eee0];
+    }
+}
+
+/* UTILITIES STYLES */
+@layer utilities{
+    .flex-center{
+        @apply flex items-center;
+    }
+    .flex-center-between{
+        @apply flex items-center justify-between;
+    }
+}
