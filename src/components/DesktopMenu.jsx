@@ -32,7 +32,7 @@ const DesktopMenu = ({menu}) => {
     };
 
     // * checking if menu has sub menu * //
-    const hasSubMenu = menu?.subMenu?.length > 0;
+    const hasSubMenu = menu?.subMenu?.length > 0; //it does so yayyy
 
     return (   
         <motion.li className="group/link" onHoverStart={toggleHoverMenu} onHoverEnd={toggleHoverMenu}>
