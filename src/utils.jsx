@@ -148,8 +148,8 @@ import {
             name: 'Pricing',
         },
         {
-            name: 'Contact'
-        }
+            name: 'Contact',
+        },
     ];
 
 export default menu;
